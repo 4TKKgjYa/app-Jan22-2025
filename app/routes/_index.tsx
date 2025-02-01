@@ -17,11 +17,12 @@ import {
 } from "~/components/ui/form";
 import { useForm } from "react-hook-form";
 import z from "zod";
+import AddToCart from "~/components/AddToCart";
 
 export default function Index() {
   return (
     <div>
-      <form action=""></form>
+      <AddToCart productId="1" />
     </div>
   );
 }
